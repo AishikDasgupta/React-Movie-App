@@ -6,7 +6,7 @@ import "./App.css";
 
 const API_URL = "http://www.omdbapi.com?apikey=b8f08233";
 
-const App = () => {
+const App = () => { 
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
 
@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>MovieLand</h1>
+      <h1>Movie InfoDev</h1>
 
       <div className="search">
         <input
